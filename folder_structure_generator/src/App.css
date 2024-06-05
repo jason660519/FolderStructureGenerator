@@ -52,7 +52,6 @@
 
 
 
-
 .row {
   display: flex;
   justify-content: center;
@@ -106,6 +105,44 @@ button {
 #greet-input {
   margin-right: 5px;
 }
+
+
+
+.container_LocalDocumentsStructure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.input-buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.structure-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+hr {
+  width: 100%;
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+
+
 
 @media (prefers-color-scheme: dark) {
   :root {
